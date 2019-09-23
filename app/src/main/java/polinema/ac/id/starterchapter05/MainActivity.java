@@ -1,9 +1,13 @@
 package polinema.ac.id.starterchapter05;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
+
 import polinema.ac.id.starterchapter05.activities.DynamicActivity;
 import polinema.ac.id.starterchapter05.activities.PraktikumActivity;
 import polinema.ac.id.starterchapter05.activities.StaticActivity;
+import polinema.ac.id.starterchapter05.fragments.BlueFragment;
+import polinema.ac.id.starterchapter05.fragments.RedFragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -31,6 +35,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent (this, StaticActivity.class) ;
         startActivity(intent) ;
     }
-
 
 }
